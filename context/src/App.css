@@ -1,0 +1,14 @@
+.dark {
+  text-align: center;
+  height: 100vh;
+  background-color: #282c34;
+  color: white;
+}
+
+.light {
+  text-align: center;
+  height: 100vh;
+  background-color: #737984;
+  color: black;
+}
+
