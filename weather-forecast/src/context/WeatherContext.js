@@ -10,14 +10,14 @@ export const WeatherProvider = ({ children }) => {
   useEffect(() => {
     async function getData() {
       setLoading(true);
-      await axios(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=*****
+      await axios(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=***
      `).then((response) => {
         getSevenDaysData(response.data.coord.lat, response.data.coord.lon);
       });
     }
     getData();
     async function getSevenDaysData(lat, lon) {
-      await axios(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&lang=en&appid=****
+      await axios(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&lang=en&appid=***
       `).then((response) => {
         setWeathers(response.data);
         setLoading(false);
