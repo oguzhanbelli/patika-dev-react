@@ -3,7 +3,7 @@ import { useWeather } from "../context/WeatherContext";
 import Animation from "./Animation/Animation";
 
 function Card() {
-  const { weathers, city } = useWeather();
+  const { weathers } = useWeather();
 
   const timestampToDate = (dt) => {
     let days = [
@@ -27,11 +27,11 @@ function Card() {
           return (
             <div
               key={i}
-              className={`max-w-sm w-[300px] ${
+              className={`${
                 i === 0
-                  ? "border-indigo-300 border-2 dark:border-indigo-300"
+                  ? "border-indigo-800  border-opacity-100 border-3 dark:border-indigo-300  "
                   : "border-gray-200"
-              } bg-white rounded-lg border  shadow-md dark:bg-slate-800 dark:border-gray-700 `}
+              } max-w-sm w-[300px] bg-white rounded-lg border  shadow-md  dark:bg-slate-800 dark:border-gray-700 `}
             >
               <div className="flex flex-col   justify-center text-center w-[300px] items-center pb-10 ">
                 <span className="text-sm mt-3 text-gray-500 dark:text-gray-400">

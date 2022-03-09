@@ -2,7 +2,6 @@ import React from "react";
 import { useWeather } from "../context/WeatherContext";
 
 function Select() {
-   
   const iller = [
     { id: 1, name: "Adana" },
     { id: 2, name: "Adıyaman" },
@@ -102,13 +101,10 @@ function Select() {
   return (
     <div>
       <select
-
         className="bg-indigo-500 text-white p-3  text-base z-50 list-none divide-y divide-gray-100 rounded shadow my-4"
         onChange={(e) => handleChange(e)}
       >
-           <option  value={"Istanbul"}>
-         Istanbul
-        </option>
+        <option value={"İstanbul"}>İstanbul</option>
         {cityList}
       </select>
     </div>
