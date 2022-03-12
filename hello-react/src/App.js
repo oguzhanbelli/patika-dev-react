@@ -1,6 +1,7 @@
 import "./App.css";
 import User from "./components/User";
-
+import {Button} from "ogibutton";
+import 'ogibutton/dist/index.css'
 const name = "Oğuzhan";
 const surname = "Belli";
 
@@ -20,10 +21,11 @@ function App() {
         age={22}
         friends={friends}
         address={{
-          title:"Bursa/İnegöl",
-          zip:16400
+          title: "Bursa/İnegöl",
+          zip: 16400,
         }}
       />
+      <Button type="dashed">Deneme</Button>
     </div>
   );
 }
