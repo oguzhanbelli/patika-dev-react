@@ -1,0 +1,69 @@
+/* add css module styles here (optional) */
+
+.test {
+  margin: 2em;
+  padding: 0.5em;
+  border: 2px solid #000;
+  font-size: 2em;
+  text-align: center;
+}
+.primary{
+  padding: 10px;
+  border-radius: 10px;
+  
+  border: none;
+  background-color: #24a0ed;
+  color: white;
+}
+.primary:hover{
+  background-color: #2da4ee;
+  cursor: pointer;
+}
+.default{
+  background-color: transparent;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #f1f5f8;
+}
+.default:hover{
+  border: 2px solid #24a0ed;
+  color: #24a0ed;
+  cursor: pointer;
+}
+.dashed{
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px dashed black;
+
+}
+.dashed:hover{
+  background-color: #f1f5f8 !important;
+  border: 2px dashed #24a0ed;
+  color: #24a0ed;
+    cursor: pointer;
+}
+
+.text{
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: transparent;
+}
+.text:hover{
+  background-color: #f1f5f8;
+  cursor: pointer;
+}
+.link{
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: transparent;
+  color:#24a0ed;
+}
+
+.link:hover{
+  color:#519cca;
+
+  cursor: pointer;
+}

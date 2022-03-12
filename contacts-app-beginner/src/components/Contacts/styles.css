@@ -1,0 +1,45 @@
+.container {
+  width: 400px;
+  background-color: #f1f5f8;
+
+  border-radius: 10px;
+
+  padding: 20px;
+}
+input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border-radius: 10px;
+
+  padding: 5px;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+button {
+  margin-top: 5px;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+  background-color: black;
+}
+.list li {
+  background-color: antiquewhite;
+  padding: 7px;
+  margin-bottom: 2px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+span p {
+  font-weight: bold;
+  padding: 2px;
+}
